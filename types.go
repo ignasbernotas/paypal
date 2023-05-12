@@ -187,7 +187,7 @@ type (
 
 	// AmountPayout struct
 	AmountPayout struct {
-		Currency string `json:"currency"`
+		Currency string `json:"currency_code"`
 		Value    string `json:"value"`
 	}
 
